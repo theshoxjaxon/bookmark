@@ -78,3 +78,8 @@
   margin-left: auto;
   border: none;
 }
+@media only screen and (max-width: 1200px) {
+  .btn--purple {
+    padding: 10px 16px;
+  }
+}
