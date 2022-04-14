@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  margin-bottom: 76px;
+  &__left {
+    max-width: 540px;
+    margin-top: 76px;
+  }
+  &__left--head {
+    margin-bottom: 24px;
+  }
+  &__left--desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #242a45;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__right {
+    max-width: 486px;
+  }
+}

@@ -1,0 +1,43 @@
+.header {
+  &__container {
+    padding-top: 48px;
+    padding-right: 168px;
+    padding-left: 168px;
+  }
+  &__nav {
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 13px;
+    margin-bottom: 108.5px;
+  }
+}
+.hamburger-menyu {
+  display: none;
+}
+.header__navigation {
+  align-items: center;
+  margin-left: auto;
+}
+.navigation--link {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #242a45;
+  margin-right: 48px;
+  text-transform: uppercase;
+}
+
+.navigation--link:hover {
+  transition: 0.2s ease;
+  letter-spacing: 1.5px;
+  color: #fa5959;
+}
+@media only screen and (max-width: 1200px) {
+  .header__navigation {
+    display: none;
+  }
+  .hamburger-menyu {
+    display: inline-block;
+  }
+}
