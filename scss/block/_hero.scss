@@ -19,6 +19,9 @@
   &__right {
     max-width: 486px;
   }
+  &__left--buttons {
+    display: flex;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .hero {
@@ -40,6 +43,6 @@
   }
   .hero__left--buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }

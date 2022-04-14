@@ -12532,6 +12532,7 @@ img {
 
 @media only screen and (max-width: 1200px) {
   .btn--purple {
+    margin-bottom: 16px;
     padding: 10px 16px;
   }
 }
@@ -12622,6 +12623,12 @@ img {
   max-width: 486px;
 }
 
+.hero__left--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media only screen and (max-width: 1200px) {
   .hero {
     display: -webkit-box;
@@ -12647,10 +12654,10 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */
