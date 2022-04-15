@@ -1,0 +1,30 @@
+.sitei-main {
+  margin-top: 80px;
+}
+.site-main__box {
+  margin: 0px auto;
+  align-items: center;
+  max-width: 540px;
+}
+.box__head {
+  font-size: 32px;
+  line-height: 52px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: -0.1px;
+
+  color: #242a45;
+}
+.box__desc {
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+
+  color: #242a45;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
