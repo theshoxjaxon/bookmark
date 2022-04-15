@@ -45,4 +45,26 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+  .header__nav {
+    position: relative;
+  }
+  .header--open .header__navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: #242a45;
+    left: 0;
+  }
+  .header--open .navigation--link {
+    flex-direction: column;
+    margin-bottom: 49px;
+    color: $text-color;
+  }
+  .header--open .button {
+    background-color: transparent;
+    width: 308px;
+    border: 1px solid $text-color;
+  }
 }
